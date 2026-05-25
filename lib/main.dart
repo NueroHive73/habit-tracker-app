@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'screens/signup_screen.dart';
-import 'screens/login_screen.dart';
+// import 'screens/login_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const SereneApp());
@@ -22,7 +23,8 @@ class SereneApp extends StatelessWidget {
       ),
 
       // home: const SignupScreen(),
-      home: const LoginScreen(),
+      // home: const LoginScreen(),
+      home: const HomeScreen(),
     );
   }
 }
