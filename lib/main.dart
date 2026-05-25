@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 // import 'screens/home_screen.dart';
 // import 'screens/persistence_screen.dart';
 // import 'screens/api_screen.dart';
-import 'screens/settings_menu_screen.dart';
+// import 'screens/settings_menu_screen.dart';
+import 'screens/notification_screen.dart';
 
 void main() {
   runApp(const SereneApp());
@@ -30,7 +31,8 @@ class SereneApp extends StatelessWidget {
       // home: const HomeScreen(),
       // home: const PersistenceScreen(),
       // home: const ApiScreen(),
-      home: const SettingsMenuScreen(),
+      // home: const SettingsMenuScreen(),
+      home: const NotificationScreen(),
     );
   }
 }
